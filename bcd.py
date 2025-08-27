@@ -245,7 +245,7 @@ patience = wait(dvr).until(visible((By.CLASS_NAME, 'v-dialog--active')))
 wait_spinner()
 
 while True:
-    try :
+    try:
         success.click()
         break
     except:
@@ -253,14 +253,15 @@ while True:
 
 print('success')
 print('slot booked on date: ' + str(gold_date) + '; time: ' + gold_time)
-if js == 0 :
+if js == 0:
     print(str(jm), 'min elapsed')
-else :
+else:
     print(str(jm), 'min', str(js), 'sec elapsed')
 print('')
 time.sleep(5)
 
 dvr.close()
 dvr.quit()
+
 
 quit()
