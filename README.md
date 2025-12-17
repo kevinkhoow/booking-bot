@@ -18,14 +18,13 @@ git clone https://github.com/kevinkhoow/booking-bot.git
 cd booking-bot
 ```
 
-### Edit Program with your Login Details
-Edit lines 20-21 in `bcd.py` accordingly.
+#### Edit Lines 20-21 in `bcd.py` with your Login Details
 ```
 kname = 'your_username'
 kpass = 'your_password'
 ```
 
-### Install Dependencies
+#### Install Dependencies
 ```
 pip install selenium
 ```
