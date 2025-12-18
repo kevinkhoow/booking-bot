@@ -1,7 +1,9 @@
 # Web Automation Script
 
 ## Overview
-This script uses Selenium WebDriver to navigate the interface of an appointment booking website. It monitors the website for the availability of appointments at certain dates and/or times and proceeds to book them when available. This script is not intended for commercial purposes.
+This script uses Selenium WebDriver to navigate the interface of an appointment booking website. It monitors the website for the availability of appointments at certain dates and/or times and proceeds to book them when available. The script allows the user to select their desired dates and/or times and edit the refresh rate. 
+
+This project served as my first exposure to programming; it is not intended for commercial purposes.
 
 ## Project Structure
 ```
